@@ -1,0 +1,208 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+html{
+ scroll-behavior: smooth; 
+}
+*{
+	font-family: 'Ultra', serif;
+}
+body{
+	background-color: #c5b358;
+}
+a{
+	text-decoration: none;
+	
+	border:none;
+	
+}
+a:hover{
+	text-decoration: none;
+	
+	
+}
+h1{
+	font-size: 72px;
+  font-color: black;
+}
+/*--BASICS---------------------------*/
+.navic{
+  position: fixed;
+  background-color: black;
+}
+.nav{
+  background-color: black;
+}
+.navic ul li{
+	padding: 8px;
+	transition: .5s;
+	
+	border-radius: 7px;
+}
+.navic ul li:hover{
+	
+	background-color: #c5b358;
+	transition: .25s;
+	
+}
+.nav-bar-animation{
+	animation-name: nav-animation;
+	animation-duration: 1.5s;
+}
+@keyframes nav-animation {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+/*--NAV---*/
+.con-con{position: relative;}
+.row-con{
+	
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	 background-color: #c5b358;
+}
+.social-bar{
+	position: absolute;
+	right: 6rem;
+	bottom: 0;
+	padding: 1rem;
+}
+.fa{
+	height: 30px;
+}
+.col-con{
+	
+}
+.div-con{
+	padding: 6rem;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 14px 14px 2px 1px rgba(0, 0, 0, .2);
+	width: 100%;
+	float: right;
+}
+.header-text-animation{
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.header-seperate-animation{
+	animation-name: seperate-animation;
+	animation-duration: 0.8s;
+}
+@keyframes seperate-animation {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.btn{
+	background-color: #665391;
+	color: #fff;
+}
+.btn:hover{
+	background-color: #c5b358;
+	color: #fff;
+	transition: .1s;
+	margin-bottom: 3px;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .1);
+}
+/*----- Main -------------------------------------------------------*/
+.tour-line{
+	background-color: black;
+	width: 66%;
+}
+.jumbotron{
+  position: relative;
+  align-items: center;
+}
+.text-name-section{
+	margin-top: 1rem;
+
+.card{
+	margin-bottom: 1rem;
+	padding: 1rem;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .1);
+}
+.card-special-css-top{
+	margin-top: 3rem;
+}
+.card-special-css-bottom{
+	margin-bottom: 6rem;
+}
+.btn-cards{
+	background-color:  #a95bba;
+	color: #fff;
+	
+}
+img{
+	height: auto;
+	max-width: 350px;
+}
+.btn-cards:hover{
+	background-color:  #924EA0;
+	color: #fff;
+	
+}
+.card-body{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.map-div{
+	float: left;
+	width: 50%;
+}
+.map-div-text{
+	width: 50%;
+	float: right;
+}
+.div-botton-map{
+	background-color: red;
+}
+/*--BAND--------------------------------*/
+.band-line{
+	background-color: #000;
+	width: 66%;
+}
+/*--Footer---------------------------------------------------------------------------------*/
+.footer-text-big{
+	display: block;
+	padding: 5px;
+	color: black;
+
+}
+.footer-text-social{
+	display:inline;
+	padding: 5px;
+
+}
+  
