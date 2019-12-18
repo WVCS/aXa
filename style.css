@@ -19,6 +19,7 @@ table, th, td {
 .card {
   background-color: #303030 !important;
   color: white;
+  margin-bottom: 0px !important;
 }
 
 .card-deck {
